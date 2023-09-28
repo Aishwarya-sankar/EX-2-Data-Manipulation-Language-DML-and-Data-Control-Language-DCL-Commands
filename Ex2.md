@@ -180,7 +180,9 @@ select avg(salary) from manager;
 ![image](https://github.com/Aishwarya-sankar/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/121418444/ff89e0b5-81c2-41c8-94ea-1562382cdef2)
 ### Q14)List the jobs and number of employees in each job.The result should be in the descending order of the number of employees.
 ### QUERY:
+```
 SELECT designation AS job, COUNT(*) AS num_employees FROM manager GROUP BY designation ORDER BY num_employees DESC;
+```
 
 
 ### OUTPUT:
