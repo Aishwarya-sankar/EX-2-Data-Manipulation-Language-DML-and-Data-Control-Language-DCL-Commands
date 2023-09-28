@@ -182,6 +182,7 @@ select avg(salary) from manager;
 ### QUERY:
 ```
 SELECT designation AS job, COUNT(*) AS num_employees FROM manager GROUP BY designation ORDER BY num_employees DESC;
+
 ```
 
 
